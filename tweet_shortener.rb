@@ -15,4 +15,7 @@ end
 
 def word_substituter(string)
   array = string.split
+
+  array.select do |x|
+    if x
 end
